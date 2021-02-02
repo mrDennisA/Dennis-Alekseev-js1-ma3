@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.games {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px darkgray solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.title {
+  color: darkgreen;
+  font-size: large;
+}
+
+.error {
+  border: 1px solid darkred;
+  padding: 1rem;
+  color: darkred;
+  background: rgba(255, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
