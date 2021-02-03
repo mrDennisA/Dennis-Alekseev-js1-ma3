@@ -8,7 +8,7 @@ async function callAPI() {
 
     gamesContainer.innerHTML = "";
 
-    for (i = 0; i < result.length; i++) {
+    for (let i = 0; i < result.length; i++) {
       if (i === 8) {
         break;
       }
